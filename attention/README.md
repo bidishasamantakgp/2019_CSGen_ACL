@@ -14,7 +14,7 @@
 
 `python -m nmt.getembeddings_generic --segment_file ../data/segments.txt --model_dir data/nmt_model/ --sentence_prefix ../data/train --sample_sent ../data/sample.txt --output_file data/<output>.tsv`
 
-## Generate synthetic text similarity based
+## Generate synthetic text dissimilarity based
 
 `python -m nmt.getembeddings_generic --segment_file ../data/segments.txt --model_dir data/nmt_model/ --sentence_prefix ../data/train --sample_sent ../data/sample.txt --output_file data/<output>.tsv --embedding_prefix ../data/embedding/<embedding_file>`
 
