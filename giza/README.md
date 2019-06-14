@@ -11,5 +11,5 @@
 ## Generate synthetic text similarity based
 `python getembeddings_generic.py --giza_prefix data/<prefix>.A3.final --segment_file data/segments.txt --map_file data/<prefix>.ti.final --sentence ../data/train --sample_sent ../data/sample.txt --output_file data/<output>.tsv`
 
-## Generate synthetic text similarity based
+## Generate synthetic text dissimilarity based
 `python getembeddings_emd.py --giza_prefix data/<prefix>.A3.final --segment_file data/segments.txt --map_file data/<prefix>.ti.final --sentence ../data/train --sample_sent ../data/sample.txt --embedding_prefix ../data/embedding/<embedding_file>  --output_file data/<output>.tsv`
