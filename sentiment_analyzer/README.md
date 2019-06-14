@@ -7,18 +7,18 @@
 
 ## Data
 
-`mkdir data/ model/ features/'
+`mkdir data/ model/ features/`
  
 
 ## Train model
 ` cp char_rnn_train.py Sub-word-LSTM'
 ` THEANO_FLAGS=mode=FAST_RUN,device=gpu,floatX=float32, allow_gc=False python char_rnn_train.py`
 
-` cp ordinal_categorical_crossentropy.py char_rnn_train_OCC.py Sub-word-LSTM'
+` cp ordinal_categorical_crossentropy.py char_rnn_train_OCC.py Sub-word-LSTM`
 
 ` THEANO_FLAGS=mode=FAST_RUN,device=gpu,floatX=float32, allow_gc=False python char_rnn_train.py`
 
 
 ## Test model
 
-` python char_rnn_test.py'
+` python char_rnn_test.py`
