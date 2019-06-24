@@ -22,5 +22,14 @@ The following directory provides scripts for sentiment analysis:
 
 - `sentiment_analyzer` Code to run sentiment classifier
 
+## Cite
+@article{samanta2019improved,
+  title={Improved Sentiment Detection via Label Transfer from Monolingual to Synthetic Code-Switched Text},
+  author={Samanta, Bidisha and Ganguly, Niloy and Chakrabarti, Soumen},
+  journal={arXiv preprint arXiv:1906.05725},
+  year={2019}
+}
+
+
 ## Contact
 bidisha@iitkgp.ac.in
