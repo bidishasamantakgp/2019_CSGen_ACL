@@ -1,7 +1,7 @@
 # Steps to install and run giza on your data
 # Requirements:
-	- `Install Pyemd by pip install -e git+https://github.com/garydoranjr/pyemd.git#egg=pyemd,follow https://github.com/garydoranjr/pyemd`
-	- `Download embedding word vector file for english nad hindi from https://fasttext.cc/docs/en/aligned-vectors.html`
+	- Install Pyemd by pip install -e git+https://github.com/garydoranjr/pyemd.git#egg=pyemd,follow https://github.com/garydoranjr/pyemd
+	- Download embedding word vector file for english nad hindi from https://fasttext.cc/docs/en/aligned-vectors.html
 
 ## Note:
 	- Here we use source language as english and target language as Hindi
@@ -18,7 +18,7 @@
 ### Steps to generate the segment file:
 
 #### 1. Download the below Jar files
-	        1. stanford-corenlp-3.7.0.jar 
+	 1. stanford-corenlp-3.7.0.jar 
          2. stanford-english-corenlp-models.jar
          3. stanford-srparser-2014-10-23-models.jar
 
