@@ -23,7 +23,7 @@
 
 #### 2. Run the command 
 - `java -cp "./*"  edu.stanford.nlp.parser.shiftreduce.demo.ShiftReduceDemo -model edu/stanford/nlp/models/srparser/englishSR.ser.gz >> parsed tree file name` to generate the parse tree of your source language dataset.
-   - Note: Here Source language dataset file path is hardcoded in the java programe to /tmp/english.txt, although you can change it at your convinience.
+   - Note: Here Source language dataset file path is hardcoded in the java programe to /tmp/english.txt, although you can change it at your convenience.
 
 #### 3. After that run the python file parsefiles.py as 
     - python parsefiles.py <parsed tree txt file generated in step 2> <sentence segment file name>
