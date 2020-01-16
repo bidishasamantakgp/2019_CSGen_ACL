@@ -11,7 +11,6 @@
 - Generate vcb (vocabulary) files and snt (sentence) files, containing the list of vocabulary and aligned sentences, respectively.
 - You can find an good explaination at https://masatohagiwara.net/using-giza-to-obtain-word-alignment-between-bilingual-sentences.html
 - Generate [prefix].A3.final and [prefix].ti.final, which contain the actual Viterbi alignment and the lexical translation table, respectively.
-- You can find an good explaination at https://masatohagiwara.net/using-giza-to-obtain-word-alignment-between-bilingual-sentences.html
 
 
 
@@ -23,7 +22,7 @@
          3. stanford-srparser-2014-10-23-models.jar
 
 #### 2. Run the command 
-- java -cp "./*"  edu.stanford.nlp.parser.shiftreduce.demo.ShiftReduceDemo -model edu/stanford/nlp/models/srparser/englishSR.ser.gz >> `parsed tree file name` to generate the parse tree of your source language dataset.
+- `java -cp "./*"  edu.stanford.nlp.parser.shiftreduce.demo.ShiftReduceDemo -model edu/stanford/nlp/models/srparser/englishSR.ser.gz >> parsed tree file name` to generate the parse tree of your source language dataset.
    - Note: Here Source language dataset file path is hardcoded in the java programe to /tmp/english.txt, although you can change it at your convinience.
 
 #### 3. After that run the python file parsefiles.py as 
